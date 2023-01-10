@@ -9,7 +9,7 @@ import myPackage.DossierBancaire;
 public class TestsSuite
 {
 	@Test  
-	public void test1() 
+	public void test1() //test initial
 	{
 		DossierBancaire dossier = new DossierBancaire();
 		dossier.deposer(100);
