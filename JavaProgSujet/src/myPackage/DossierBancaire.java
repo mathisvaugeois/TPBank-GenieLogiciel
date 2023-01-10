@@ -2,7 +2,7 @@ package myPackage;
 
 public class DossierBancaire
 {	
-	private double m_solde;
+	private double m_solde; //solde général des deux comptes bancaires
 	private Compte _compteCourant;
 	private Compte _compteEpargne;
 	
