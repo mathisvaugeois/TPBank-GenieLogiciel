@@ -41,4 +41,18 @@ public class DossierBancaire
     	somme = 0.032 * somme;
     	_compteEpargne.deposer(somme);
     }
+    
+    public void retrait(double somme)
+    {
+    	double current_value = _compteCourant.getSolde();
+    	if(somme <= current_value)
+    	{
+    		//OK POUR LE RETRAIT
+    	}
+    	else
+    	{
+    		//PAS OK POUR LE RETRAIT
+    		//SEND ERREUR	
+    	}
+    }
 }
