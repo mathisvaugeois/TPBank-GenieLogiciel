@@ -33,4 +33,13 @@ public class TestsSuite
 		dossier.remunerer();
 		assertEquals(61.92, dossier.getCompteEpargne().getSolde(), 0);	
 	}
+	
+	@Test  
+	public void test4()
+	{
+		DossierBancaire dossier = new DossierBancaire();
+		dossier.deposer(100);
+		dossier.retrait(30);
+		assertEquals(10, dossier.getCompteCourant().getSolde(), 0);
+	}
 }

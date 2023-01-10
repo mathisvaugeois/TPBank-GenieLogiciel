@@ -2,7 +2,7 @@ package myPackage;
 
 public class DossierBancaire
 {	
-	private double m_solde; //solde général des deux comptes bancaires
+	private double m_solde; //solde gï¿½nï¿½ral des deux comptes bancaires
 	private Compte _compteCourant;
 	private Compte _compteEpargne;
 	
@@ -13,7 +13,7 @@ public class DossierBancaire
     	_compteEpargne = new Compte();
     }
 
-    public void deposer(double somme) //déposer de l'argent sur les deux comptes courant et épargne
+    public void deposer(double somme) //dï¿½poser de l'argent sur les deux comptes courant et ï¿½pargne
     {
     	m_solde += somme;
     	_compteCourant.deposer(0.4 * somme);
@@ -30,12 +30,12 @@ public class DossierBancaire
     	return _compteCourant;
     }
     
-    public Compte getCompteEpargne() //renvoie le compte épargne
+    public Compte getCompteEpargne() //renvoie le compte ï¿½pargne
     {
     	return _compteEpargne;
     }
     
-    public void remunerer() //verser les intérêts sur le compte épargne
+    public void remunerer() //verser les intï¿½rï¿½ts sur le compte ï¿½pargne
     {
     	double somme = _compteEpargne.getSolde();
     	somme = 0.032 * somme;
@@ -48,11 +48,13 @@ public class DossierBancaire
     	if(somme <= current_value)
     	{
     		//OK POUR LE RETRAIT
+    		_compteCourant.deposer(-somme);    		
     	}
     	else
     	{
     		//PAS OK POUR LE RETRAIT
-    		//SEND ERREUR	
+    		//SEND ERREUR
+    		System.out.println("Solde insuffisant");
     	}
     }
 }
