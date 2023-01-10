@@ -1,0 +1,20 @@
+installation github desktop
+créer un dépot
+créer plusieurs branches
+via lien on récupère le dépot partagé
+javac : on récupère javac dans programmes java
+modifier les variables d'environnement modifer path
+on ajoute le chemin
+on peut compiler via cmd
+
+compiler runner
+
+
+org.junit_4.13.2.v20211018-1956.jar
+
+org.hamcrest.core_1.3.0.v20180420-1519.jar
+
+C:\Users\usrlocal\Documents\GitHub\TPBank-GenieLogiciel\JavaProgSujet\src>javac -cp "C:\eclipse\plugins\org.junit_4.13.2.v20211018-1956.jar";
+"C:\eclipse\plugins\org.hamcrest.core_1.3.0.v20180420-1519.jar" 
+tests\MyTest1.java tests\MyTest2.java tests\MyTestSuite1.java tests\MyTestSuite1Runner.java myPackage\DossierBancaire.java
+
