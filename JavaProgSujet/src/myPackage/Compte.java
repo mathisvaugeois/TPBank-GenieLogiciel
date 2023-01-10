@@ -18,9 +18,4 @@ public class Compte
 	{
 		solde += somme;
 	}
-	
-	public void setSolde(double somme)
-	{
-		solde = somme;
-	}
 }

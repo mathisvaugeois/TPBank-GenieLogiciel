@@ -1,15 +1,18 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2023.1.10)  10 JAN 2023 15:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.12) (preloaded format=pdflatex 2023.1.10)  10 JAN 2023 21:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**C:/Users/usrlocal/Documents/GitHub/TPBank-GenieLogiciel/raport.tex
-(C:/Users/usrlocal/Documents/GitHub/TPBank-GenieLogiciel/raport.tex
-LaTeX2e <2022-06-01> patch level 5
-L3 programming layer <2022-09-28>
-(C:\Users\usrlocal\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
-Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
-(C:\Users\usrlocal\AppData\Local\Programs\MiKTeX\tex/latex/base\size10.clo
-File: size10.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
+**./raport.tex
+(raport.tex
+LaTeX2e <2022-11-01> patch level 1
+L3 programming layer <2022-12-17>
+(C:\Users\Tanguy Moriceau\AppData\Local\Programs\MiKTeX\tex/latex/base\article.
+cls
+Document Class: article 2022/07/02 v1.4n Standard LaTeX document class
+
+(C:\Users\Tanguy Moriceau\AppData\Local\Programs\MiKTeX\tex/latex/base\size10.c
+lo
+File: size10.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
 )
 \c@part=\count185
 \c@section=\count186
@@ -19,147 +22,92 @@ File: size10.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
 \c@subparagraph=\count190
 \c@figure=\count191
 \c@table=\count192
-\abovecaptionskip=\skip47
-\belowcaptionskip=\skip48
-\bibindent=\dimen138
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\bibindent=\dimen140
 )
-(C:\Users\usrlocal\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.st
-y
+(C:\Users\Tanguy Moriceau\AppData\Local\Programs\MiKTeX\tex/latex/graphics\grap
+hicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
 
-(C:\Users\usrlocal\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+(C:\Users\Tanguy Moriceau\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyv
+al.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 \KV@toks@=\toks16
 )
-(C:\Users\usrlocal\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.st
-y
+(C:\Users\Tanguy Moriceau\AppData\Local\Programs\MiKTeX\tex/latex/graphics\grap
+hics.sty
 Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
- (C:\Users\usrlocal\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+
+(C:\Users\Tanguy Moriceau\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig
+.sty
 Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
 )
-(C:\Users\usrlocal\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphic
-s.cfg
+(C:\Users\Tanguy Moriceau\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\
+graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 107.
 
-(C:\Users\usrlocal\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.
-def
+(C:\Users\Tanguy Moriceau\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\
+pdftex.def
 File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
-\stockwidth=\dimen139
-\stockheight=\dimen140
 ))
 \Gin@req@height=\dimen141
 \Gin@req@width=\dimen142
 )
-(C:\Users\usrlocal\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-
-pdftex.def
-File: l3backend-pdftex.def 2022-09-28 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count193
-\l__pdf_internal_box=\box51
+(C:\Users\Tanguy Moriceau\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hype
+rref.sty
+Package: hyperref 2022-11-13 v7.00u Hypertext links for LaTeX
+
+(C:\Users\Tanguy Moriceau\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltx
+cmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
 )
-No file raport.aux.
-\openout1 = `raport.aux'.
-
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-
-(C:\Users\usrlocal\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf
-.mkii
-[Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count194
-\scratchdimen=\dimen143
-\scratchbox=\box52
-\nofMPsegments=\count195
-\nofMParguments=\count196
-\everyMPshowfont=\toks17
-\MPscratchCnt=\count197
-\MPscratchDim=\dimen144
-\MPnumerator=\count198
-\makeMPintoPDFobject=\count199
-\everyMPtoPDFconversion=\toks18
+(C:\Users\Tanguy Moriceau\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex
+.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
 )
-(C:\Users\usrlocal\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopd
-f-base.sty
-Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
-85.
+(C:\Users\Tanguy Moriceau\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\
+pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
 
-(C:\Users\usrlocal\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sy
-s.cfg
-File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
-))
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 14.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 14.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 14.
+(C:\Users\Tanguy Moriceau\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\i
+nfwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(C:\Users\Tanguy Moriceau\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvs
+etkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+)
+(C:\Users\Tanguy Moriceau\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekey
+s\kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(C:\Users\Tanguy Moriceau\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\p
+dfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+)
+(C:\Users\Tanguy Moriceau\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycol
+or.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(C:\Users\Tanguy Moriceau\AppData\Local\Programs\MiKTeX\tex/latex/letltxmacro\l
+etltxmacro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+)
+(C:\Users\Tanguy Moriceau\AppData\Local\Programs\MiKTeX\tex/latex/auxhook\auxho
+ok.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+(C:\Users\Tanguy Moriceau\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\name
+ref.sty
+Package: nameref 2022-05-17 v2.50 Cross-referencing by name of section
 
-! Undefined control sequence.
-\@author ->Mathis Vaugeois \n 
-                              Tanguy Mrc\n Faustine Guillou
-l.14 \maketitle
-               
-? 
-! Undefined control sequence.
-\@author ->Mathis Vaugeois \n Tanguy Mrc\n 
-                                           Faustine Guillou
-l.14 \maketitle
-               
-? 
-<images//diagrammeClasse.png, id=1, 597.73312pt x 845.40843pt>
-File: images//diagrammeClasse.png Graphic file (type png)
-<use images//diagrammeClasse.png>
-Package pdftex.def Info: images//diagrammeClasse.png  used on input line 22.
-(pdftex.def)             Requested size: 258.75pt x 365.96951pt.
-
-LaTeX Warning: Reference `fig:mesh1' on page 1 undefined on input line 27.
-
-
-LaTeX Warning: Reference `fig:mesh1' on page 1 undefined on input line 27.
-
-[1
-
-{C:/Users/usrlocal/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-[2 <C:/Users/usrlocal/Documents/GitHub/TPBank-GenieLogiciel/images//diagrammeCl
-asse.png>] (raport.aux)
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
-Here is how much of TeX's memory you used:
- 1315 strings out of 475385
- 22556 string characters out of 2775491
- 363037 words of memory out of 3000000
- 22729 multiletter control sequences out of 15000+600000
- 473207 words of font info for 41 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 55i,6n,62p,263b,236s stack positions out of 10000i,1000n,20000p,200000b,80000s
-<C:/Users/usrlocal/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/
-cm/cmbx10.pfb><C:/Users/usrlocal/AppData/Local/Programs/MiKTeX/fonts/type1/publ
-ic/amsfonts/cm/cmbx12.pfb><C:/Users/usrlocal/AppData/Local/Programs/MiKTeX/font
-s/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/usrlocal/AppData/Local/Programs/
-MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/usrlocal/AppData/Loca
-l/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on raport.pdf (2 pages, 95477 bytes).
-PDF statistics:
- 37 PDF objects out of 1000 (max. 8388607)
- 0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
-
+(C:\Users\Tanguy Moriceau\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refc
+ount.s
