@@ -14,8 +14,8 @@ public class Compte
 		return solde;
 	}
 	
-	public void deposer(double value)
+	public void deposer(double argent)
 	{
-		solde = solde + value;
+		solde += argent;
 	}
 }
