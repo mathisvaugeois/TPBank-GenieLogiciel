@@ -6,36 +6,36 @@ public class DossierBancaire
 	private Compte _compteCourant;
 	private Compte _compteEpargne;
 	
-    public DossierBancaire()
+    public DossierBancaire() //constructeur du dossier bancaire
     {
     	m_solde=0;
     	_compteCourant = new Compte();
     	_compteEpargne = new Compte();
     }
 
-    public void deposer(double somme)
+    public void deposer(double somme) //déposer de l'argent sur les deux comptes courant et épargne
     {
     	m_solde += somme;
     	_compteCourant.deposer(0.4 * somme);
     	_compteEpargne.deposer(0.6 * somme);
     }
     
-    public double get_solde()
+    public double get_solde() //renvoie le solde du dossier
     {
     	return m_solde = _compteCourant.getSolde() + _compteEpargne.getSolde();
     }
     
-    public Compte getCompteCourant()
+    public Compte getCompteCourant() //renvoie le compte courant
     {
     	return _compteCourant;
     }
     
-    public Compte getCompteEpargne()
+    public Compte getCompteEpargne() //renvoie le compte épargne
     {
     	return _compteEpargne;
     }
     
-    public void remunerer()
+    public void remunerer() //verser les intérêts sur le compte épargne
     {
     	double somme = _compteEpargne.getSolde();
     	somme = 0.032 * somme;
