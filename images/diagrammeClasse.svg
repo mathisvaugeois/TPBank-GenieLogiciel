@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04, custom)"
+   sodipodi:docname="diagrammeClasse.svg"
+   inkscape:export-filename="C:\Users\usrlocal\Documents\GitHub\TPBank-GenieLogiciel\images\diagrammeClasse.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="1.0469406"
+     inkscape:cx="434.12205"
+     inkscape:cy="490.47673"
+     inkscape:window-width="958"
+     inkscape:window-height="1008"
+     inkscape:window-x="953"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.96718;stroke-miterlimit:4;stroke-dasharray:3.86872, 0.96718;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect269"
+       width="184.11658"
+       height="237.77644"
+       x="17.663727"
+       y="23.739538" />
+    <rect
+       style="fill:none;stroke:#ff0003;stroke-width:0.665001;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect2632"
+       width="56.826714"
+       height="90.422379"
+       x="28.949457"
+       y="32.880867" />
+    <rect
+       style="fill:none;stroke:#ff0300;stroke-width:0.658661;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect2639"
+       width="55.40345"
+       height="91.500923"
+       x="134.73689"
+       y="32.877697" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.284294px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 96.853408,72.772102 134.74139,72.55302"
+       id="path4489" />
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.371177;stroke-miterlimit:4;stroke-dasharray:1.4847, 0.371177;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect3978"
+       width="6.8623347"
+       height="7.0980425"
+       x="-11.4374"
+       y="115.34295"
+       transform="matrix(0.79148744,-0.61118543,0.82059671,0.5715077,0,0)" />
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.371177;stroke-miterlimit:4;stroke-dasharray:1.4847, 0.371177;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect3978-1"
+       width="6.8623347"
+       height="7.0980425"
+       x="2.2521327"
+       y="102.00712"
+       transform="matrix(0.79148744,-0.61118543,0.82059671,0.5715077,0,0)" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.284295px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 96.745113,56.783704 134.63309,56.56462"
+       id="path4489-9" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#ff0800;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 28.592057,44.675088 H 84.703969"
+       id="path5404" />
+    <path
+       style="fill:none;stroke:#ff0000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 134.74008,46.104692 h 54.6823"
+       id="path5406" />
+    <text
+       xml:space="preserve"
+       style="font-size:5.64444px;line-height:1.25;font-family:sans-serif;word-spacing:0px;stroke-width:0.264583"
+       x="35.382668"
+       y="40.38628"
+       id="text8170"><tspan
+         sodipodi:role="line"
+         id="tspan8168"
+         style="font-size:5.64444px;stroke-width:0.264583"
+         x="35.382668"
+         y="40.38628">DossierBancaire</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:5.64444px;line-height:1.25;font-family:sans-serif;word-spacing:0px;stroke-width:0.264583"
+       x="147.96391"
+       y="41.458481"
+       id="text15098"><tspan
+         sodipodi:role="line"
+         id="tspan15096"
+         style="font-size:5.64444px;stroke-width:0.264583"
+         x="147.96391"
+         y="41.458481">Compte</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:5.19886px;line-height:1.25;font-family:sans-serif;word-spacing:0px;stroke-width:0.263626"
+       x="31.215906"
+       y="86.534286"
+       id="text22322"
+       transform="scale(0.99638361,1.0036295)"><tspan
+         sodipodi:role="line"
+         id="tspan22320"
+         style="font-size:5.19886px;stroke-width:0.263626"
+         x="31.215906"
+         y="86.534286">+ Depot</tspan><tspan
+         sodipodi:role="line"
+         style="font-size:5.19886px;stroke-width:0.263626"
+         x="31.215906"
+         y="93.03286"
+         id="tspan7313">(double argent) : void</tspan><tspan
+         sodipodi:role="line"
+         style="font-size:5.19886px;stroke-width:0.263626"
+         x="31.215906"
+         y="99.531441"
+         id="tspan22324">+ GetSolde() : double</tspan><tspan
+         sodipodi:role="line"
+         style="font-size:5.19886px;stroke-width:0.263626"
+         x="31.215906"
+         y="106.03001"
+         id="tspan24414">+ Remunerer() : void</tspan><tspan
+         sodipodi:role="line"
+         style="font-size:5.19886px;stroke-width:0.263626"
+         x="31.215906"
+         y="112.52859"
+         id="tspan53492">+ DossierBancaire()</tspan></text>
+    <path
+       style="fill:none;fill-opacity:1;stroke:#ff0800;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 29.12816,79.700361 H 85.240072"
+       id="path5404-4" />
+    <path
+       style="fill:none;stroke:#ff0000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 134.20397,79.34296 h 54.6823"
+       id="path5406-2" />
+    <text
+       xml:space="preserve"
+       style="font-size:4.93889px;line-height:1.25;font-family:sans-serif;word-spacing:0px;stroke-width:0.264583"
+       x="139.38628"
+       y="53.610104"
+       id="text35212"><tspan
+         sodipodi:role="line"
+         id="tspan35210"
+         style="font-size:4.93889px;stroke-width:0.264583"
+         x="139.38628"
+         y="53.610104">- _solde : double</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:4.93889px;line-height:1.25;font-family:sans-serif;word-spacing:0px;stroke-width:0.264583"
+       x="92.707687"
+       y="50.582817"
+       id="text39980"><tspan
+         sodipodi:role="line"
+         id="tspan39978"
+         style="font-size:4.93889px;stroke-width:0.264583"
+         x="92.707687"
+         y="50.582817">- _compteCourant </tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:4.93889px;line-height:1.25;font-family:sans-serif;word-spacing:0px;stroke-width:0.264583"
+       x="92.637238"
+       y="66.928596"
+       id="text45028"><tspan
+         sodipodi:role="line"
+         id="tspan45026"
+         style="font-size:4.93889px;stroke-width:0.264583"
+         x="92.637238"
+         y="66.928596">- _compteEpargne</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:4.93889px;line-height:1.25;font-family:sans-serif;word-spacing:0px;stroke-width:0.264583"
+       x="137.59929"
+       y="85.41877"
+       id="text48936"><tspan
+         sodipodi:role="line"
+         id="tspan48934"
+         style="font-size:4.93889px;stroke-width:0.264583"
+         x="137.59929"
+         y="85.41877">+ GetSolde() : double</tspan><tspan
+         sodipodi:role="line"
+         style="font-size:4.93889px;stroke-width:0.264583"
+         x="137.59929"
+         y="91.592384"
+         id="tspan749">+ Deposer</tspan><tspan
+         sodipodi:role="line"
+         style="font-size:4.93889px;stroke-width:0.264583"
+         x="137.59929"
+         y="97.765991"
+         id="tspan4965">(double argent) : void</tspan><tspan
+         sodipodi:role="line"
+         style="font-size:4.93889px;stroke-width:0.264583"
+         x="137.59929"
+         y="103.93961"
+         id="tspan48940">+ Compte()</tspan></text>
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.264999;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect56164"
+       width="45.03249"
+       height="5.7184114"
+       x="17.512636"
+       y="23.588448" />
+    <text
+       xml:space="preserve"
+       style="font-size:4.93889px;line-height:1.25;font-family:sans-serif;word-spacing:0px;stroke-width:0.264583"
+       x="24.303249"
+       y="27.877256"
+       id="text59447"><tspan
+         sodipodi:role="line"
+         id="tspan59445"
+         style="font-size:4.93889px;stroke-width:0.264583"
+         x="24.303249"
+         y="27.877256">applibancaire</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:4.93889px;line-height:1.25;font-family:sans-serif;word-spacing:0px;stroke-width:0.264583"
+       x="34.053272"
+       y="51.282417"
+       id="text35212-1"><tspan
+         sodipodi:role="line"
+         id="tspan35210-7"
+         style="font-size:4.93889px;stroke-width:0.264583"
+         x="34.053272"
+         y="51.282417">- m_solde : double</tspan></text>
+    <rect
+       style="fill:none;stroke:#ff0300;stroke-width:0.690618;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect2639-0"
+       width="60.931343"
+       height="91.468964"
+       x="82.24765"
+       y="145.82764" />
+    <path
+       style="fill:none;stroke:#ff0000;stroke-width:0.276541px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 82.59226,160.47751 h 59.73671"
+       id="path5406-0" />
+    <path
+       style="fill:none;stroke:#ff0000;stroke-width:0.277708px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 82.339539,193.33117 H 142.58169"
+       id="path5406-2-2" />
+    <text
+       xml:space="preserve"
+       style="font-size:5.64444px;line-height:1.25;font-family:sans-serif;word-spacing:0px;stroke-width:0.264583"
+       x="106.76663"
+       y="154.69493"
+       id="text8170-7"><tspan
+         sodipodi:role="line"
+         style="font-size:5.64444px;stroke-width:0.264583"
+         x="106.76663"
+         y="154.69493"
+         id="tspan5374">GUI</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:4.93889px;line-height:1.25;font-family:sans-serif;word-spacing:0px;stroke-width:0.264583"
+       x="83.55204"
+       y="167.0284"
+       id="text35212-1-7"><tspan
+         sodipodi:role="line"
+         style="font-size:4.93889px;stroke-width:0.264583"
+         x="83.55204"
+         y="167.0284"
+         id="tspan9299">- m_saisie depot :</tspan><tspan
+         sodipodi:role="line"
+         style="font-size:4.93889px;stroke-width:0.264583"
+         x="83.55204"
+         y="173.20201"
+         id="tspan9303">JTextField</tspan><tspan
+         sodipodi:role="line"
+         style="font-size:4.93889px;stroke-width:0.264583"
+         x="83.55204"
+         y="179.37563"
+         id="tspan9305">- m_diplay_solde :</tspan><tspan
+         sodipodi:role="line"
+         style="font-size:4.93889px;stroke-width:0.264583"
+         x="83.55204"
+         y="185.54924"
+         id="tspan9307">JTextField</tspan><tspan
+         sodipodi:role="line"
+         style="font-size:4.93889px;stroke-width:0.264583"
+         x="83.55204"
+         y="191.72284"
+         id="tspan9309">- m_remunerer : JButton</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:5.19886px;line-height:1.25;font-family:sans-serif;word-spacing:0px;stroke-width:0.263626"
+       x="83.613609"
+       y="198.4548"
+       id="text22322-8"
+       transform="scale(0.99638362,1.0036295)"><tspan
+         sodipodi:role="line"
+         id="tspan22320-4"
+         style="font-size:5.19886px;stroke-width:0.263626"
+         x="83.613609"
+         y="198.4548">+ GUI</tspan><tspan
+         sodipodi:role="line"
+         style="font-size:5.19886px;stroke-width:0.263626"
+         x="83.613609"
+         y="204.95338"
+         id="tspan7313-5">(DossierBancaire d)</tspan><tspan
+         sodipodi:role="line"
+         style="font-size:5.19886px;stroke-width:0.263626"
+         x="83.613609"
+         y="211.45195"
+         id="tspan22324-2">+ actionPerformed</tspan><tspan
+         sodipodi:role="line"
+         style="font-size:5.19886px;stroke-width:0.263626"
+         x="83.613609"
+         y="217.95053"
+         id="tspan53492-9">(ActionEvent e) : void</tspan></text>
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.371672;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect3978-9"
+       width="6.862"
+       height="7.0980425"
+       x="-76.180389"
+       y="239.77628"
+       transform="matrix(0.76626679,-0.64252254,0.84291736,0.53804304,0,0)" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 154.97826,177.36763 7.26829,0.0422 0,-36.13903 -59.38931,-0.25272 -0.20585,-17.6989 -0.0469,-26.779957 v 0 H 86.430405"
+       id="path24069"
+       sodipodi:nodetypes="cccccccc" />
+    <text
+       xml:space="preserve"
+       style="font-size:4.93889px;line-height:1.25;font-family:sans-serif;word-spacing:0px;stroke-width:0.264583"
+       x="110.65981"
+       y="139.1559"
+       id="text45028-7"><tspan
+         sodipodi:role="line"
+         id="tspan45026-5"
+         style="font-size:4.93889px;stroke-width:0.264583"
+         x="110.65981"
+         y="139.1559">- m_dossier</tspan></text>
+  </g>
+</svg>
