@@ -1,0 +1,10 @@
+installation github desktop
+créer un dépot
+créer plusieurs branches
+via lien on récupère le dépot partagé
+javac : on récupère javac dans programmes java
+modifier les variables d'environnement modifer path
+on ajoute le chemin
+on peut compiler via cmd
+
+compiler runner
