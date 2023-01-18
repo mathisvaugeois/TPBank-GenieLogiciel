@@ -2,14 +2,14 @@ package myPackage;
 
 public class DossierBancaire
 {	
-	private double m_solde; //solde g�n�ral des deux comptes bancaires
-	private Compte _compteCourant;
-	private Compte _compteEpargne;
+	private double m_solde; //solde général des deux comptes bancaires
+	private Compte _compteCourant; //Element de la classe Compte
+	private Compte _compteEpargne; //Si on en veut plusieurs on peut facilement passé sa en liste et modifier les fonctions
 	
     public DossierBancaire() //constructeur du dossier bancaire
     {
     	m_solde=0;
-    	_compteCourant = new Compte();
+    	_compteCourant = new Compte(); //Creation d'un compte
     	_compteEpargne = new Compte();
     }
 
