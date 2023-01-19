@@ -27,29 +27,37 @@ explication installation github(mathis)
 \newpage
 \section{Cahier des charges}
 
-\begin{figure}
-    \centering
-    \includegraphics[width=0.75\textwidth]{diagrammeClasse}
-    \caption{Diagramme de Classe.}
-    \label{fig:mesh1}
+
+
+1.Pour réaliser le diagramme de Classe, nous avons d'abord travaillé sur feuille et nous l'avons mis au prope en utilisant InkScape. 
+Nous avons décider de créer un seul type Compte, avec compte courant et compte épargne deux entités différentes de Compte, car ils ont tous les deux les mêmes attributs.
+Compte dépend entièrement de Dosier Bancaire, donc si le dossier bancaire est supprimé, les comptes le seront aussi.
+\begin{figure}[h]
+\includegraphics[width=0.8\textwidth]{diagrammeClasse.png}
+\end{figure}
+\newline
+\newpage
+
+2.Nous avons ensuite réalisé un diagramme de Séquence. Il débute par le main,qui initialise DossierBancaire. Pour décider des actions, DossierBancaire dépend du GUI, c'est donc par ce dernier que se lance tous les ordres.
+Le premier ordre est déposer(). Via le GUI, le dépot se lance, DossierBancaire dépose sur Compte Courant et Compte Epargne.
+Pour rémunérer, on récupère d'abord le solde du compte avant de prélever.
+Pour le retrait, il y a double situations. Si l'argent est suffisant, on retire, si il ne l'est pas, rien ne se passe.
+Pour effectuer des retraits sur le compte, nous n'avons pas créé une fonction. Nous réutilisns déposer mais en utilisant un chiffre négatif dont la valeur absolue est égale à la valeur du retrait.
+%\begin{figure}[h]
+%\includegraphics[width=0.8\textwidth]{diagrammeSequence.png}
+%\end{figure}
+
+3. En plus des deux diagrammes précédents, nous pourrions aussi proposer un diagramme d'objets. Le voici donc:
+
+
+
+\begin{figure}[h]
+\includegraphics[width=0.8\textwidth]{diagrammeObj.png}
 \end{figure}
 
-%\begin{figure}
-   % \centering
-    %\includegraphics[width=0.75\textwidth]{diagrammeSeq}
-    %\caption{Diagramme de Séquence.}
-    %\label{fig:mesh2}
-%\end{figure}
+Il permet de rapidement voir tous les objets intervenant dans cette situation: le main, le GUI, le dossier banaire et les deux types de compte.
 
-%\begin{figure}
-   % \centering
-    %\includegraphics[width=0.75\textwidth]{diagrammeObj}
-    %\caption{Diagramme d'Objet.}
-    %\label{fig:mesh3}
-%\end{figure}
 
-1.Pour réaliser le diagramme de Clase, nous avons d'abord travaillé sur feuille et nous l'avons mis au prope en utilisant InkScape.  \ref{fig:mesh1}. Vous pouvez retrouver ce diagramme sur la page \pageref{fig:mesh1}.
-\newline
 \newpage
 \section{Code de départ}
 
@@ -399,7 +407,8 @@ Nous avons modifié l'interface GUI.
 
         if( e.getSource() == m_saisie_retrait )
     	{
-    		double retrait_value=Double.parseDouble(m_saisie_retrait.getText());
+    		double retrait_value=Double.parseDouble
+            (m_saisie_retrait.getText());
     		m_dossier.retrait(retrait_value);
     		m_saisie_retrait.setText("");
     	}
