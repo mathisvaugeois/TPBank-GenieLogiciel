@@ -147,9 +147,7 @@ Comme la commande précéente, celle-ci n'a pas fonctionné. Les chemins étaien
 \section{Développement}
 
 \subsection{Exercice 3 - Premiers développements}
-1. Nous avions déjà créé le dépôt git au tout début, via GitHub.
-
-2.
+1. Nous avions déjà créé le dépôt git au tout début, via GitHub. Nous n'avions donc pas besoin d'initialiser un dépôt local avec la commande git init.
 
 3.
 En premier lieu, nous avons retirés les tests inutiles. Nous avons déplacé les autres dans un fichier JUnit Teste Case que nous avons nommé "TestDossierBancaire". De plus, nous avons écris des tests supplémentaires pour tester les fonctionnalités de la classe DossierBancaire. Nous avons rajouté les tests 2,3 et 4. Nous avons ensuite renommé le fichier TestsSuites.
@@ -167,17 +165,18 @@ import myPackage.DossierBancaire;
 public class TestsSuite
 {
 	@Test  
-	public void test1() 
+	public void test1() //ce test permet de s'assurer qu'un Dossier Bancaire s'initialise bien et que les méthodes de dépôt et de get_solde fonctionnent
 	{
-		DossierBancaire dossier = new DossierBancaire();
-		dossier.deposer(100);
-		assertEquals(100, dossier.get_solde(), 0);
+		DossierBancaire dossier = new DossierBancaire(); //création d'un nouvel objet de la classe DossierBancaire
+		dossier.deposer(100); //dépôt de 100 euros sur le dossier bancaire
+		assertEquals(100, dossier.get_solde(), 0); //vérifier que le dépôt s'est bien effectué
 	}
 	
 	
 }
 \end{lstlisting}
 4.
+Cette nouvelle version a été taggée V1.0 grâce à GitHub Desktop.
 
 5.
 Une classe Compte a été créée. Celle-ci contient un solde (privé), ainsi qu'un constructeur et deux méthodes permettant de récupérer
@@ -187,19 +186,19 @@ le montant de ce solde, ainsi que de déposer de l'argent sur le compte.
 
 public class Compte
 {
-	private double solde;
+	private double solde; //solde privé du compte (épargne ou courant)
 	
-	public Compte() 
+	public Compte() //méthode qui initialise un objet de la classe
 	{
-		solde = 0;
+		solde = 0; //attribue la valeur 0 au solde de ce compte
 	}
 	
-	public double getSolde() 
+	public double getSolde() //méthode qui permet de récupérer la valeur courante du solde
 	{
 		return solde;
 	}
 	
-	public void deposer(double somme) 
+	public void deposer(double somme) //méthode qui permet de déposer de l'argent sur le compte
    
 	{
 		solde += somme;
@@ -208,14 +207,14 @@ public class Compte
 \end{lstlisting}
 Un attribut de type Compte a été ajouté au dossier bancaire (compteCourant), permettant d'accéder aux comptes.
 \begin{lstlisting}
-    private double m_solde;
-	private Compte _compteCourant;
+    private double m_solde; //solde général du dossier bancaire
+    private Compte _compteCourant; //compte courant lié au dossier bancaire
 	
 	
-    public DossierBancaire()
+    public DossierBancaire() //méthode qui permet de créer un dossier bancaire
     {
-    	m_solde=0;
-    	Compte _compteCourant = new Compte();
+    	m_solde=0; //initialise le solde général à 0 euros
+    	Compte _compteCourant = new Compte(); //créer un objet de la classe compte (compte courant)
     	
     }
 \end{lstlisting}
@@ -223,8 +222,8 @@ La fonction déposer a été développée.
 \begin{lstlisting}
     public void deposer(double argent)
     {
-    	m_solde += argent;
-    	_compteCourant.deposer(argent);
+    	m_solde += argent; //on augmente le solde général du dossier
+    	_compteCourant.deposer(argent); //puis on dépose la somme sur le compte courant
     }
 \end{lstlisting}
 Nous avons de plus rajouté une méthode avec d'accéder au compte couant.
@@ -239,10 +238,8 @@ public Compte getCompteCourant()
 
 Ensuite, nous avons développé des tests pour ces changements.
 \begin{lstlisting}
-
-	
 	@Test  
-	public void test2() 
+	public void test2() //ce test peremt de vérifier que l'on peut accéder au solde du compte courant, depuis le dossier bancaire
 	{
 		DossierBancaire dossier = new DossierBancaire();
 		dossier.deposer(42);
@@ -257,13 +254,13 @@ Un attribut de type Compte a été ajouté au dossier bancaire (compteEpargne), 
 \begin{lstlisting}
     private double m_solde;
 	private Compte _compteCourant;
-	private Compte _compteEpargne;
+	private Compte _compteEpargne; //ajout d'un compte épargne au dossier bancaire
 	
     public DossierBancaire()
     {
     	m_solde=0;
     	Compte _compteCourant = new Compte();
-    	Compte _compteEpargne = new Compte();
+    	Compte _compteEpargne = new Compte(); //création d'un deuxième objet de la classe compte (compte épargne)
     }
 \end{lstlisting}
 La fonction déposer a été modifiée, pour inclure le compte épargne.
@@ -271,17 +268,17 @@ La fonction déposer a été modifiée, pour inclure le compte épargne.
      public void deposer(double somme)
     {
     	m_solde += somme;
-    	_compteCourant.deposer(0.4 * somme);
-    	_compteEpargne.deposer(0.6 * somme);
+    	_compteCourant.deposer(0.4 * somme); //répartition de la somme sur les deux comptes
+    	_compteEpargne.deposer(0.6 * somme); //comme spécifié dans le cahier des charges
     }
 \end{lstlisting}
 Le dossier bancaire contient aussi désormais une fonction de rémunération à taux fixe, qui dépose de l'argent sur le compteEpargne.
 \begin{lstlisting}
     public void remunerer()
     {
-    	double somme = _compteEpargne.getSolde();
-    	somme = 0.032 * somme;
-    	_compteEpargne.deposer(somme);
+    	double somme = _compteEpargne.getSolde(); //récupérer le solde du compte épargne
+    	somme = 0.032 * somme; //calculer le pourcentage d'intérêts
+    	_compteEpargne.deposer(somme); //verser les intérêts sur le compte épargne
     }
 }
 \end{lstlisting}
@@ -297,11 +294,11 @@ public Compte getCompteEpargne()
 Ensuite, nous avons développé des tests pour ces changements.
 \begin{lstlisting}
 @Test  
-	public void test3() 
+	public void test3() //on vérifier que l'on peut rémunérer le compte épargne et accéder à la valeur de son solde
 	{
 	   DossierBancaire dossier = new DossierBancaire();
 	   dossier.deposer(100);
-      assertEquals(60, dossier.getCompteEpargne().getSolde(), 0);	
+           assertEquals(60, dossier.getCompteEpargne().getSolde(), 0);	
 	   dossier.remunerer();
 	   assertEquals(61.92, dossier.getCompteEpargne().getSolde(), 0);	
 	}
@@ -309,14 +306,10 @@ Ensuite, nous avons développé des tests pour ces changements.
 
 
 7.
+Pour tagger cette version, nous avons fait un clic-droit sur la version en question dans l'history et nous avons cliqué sur create tag.
 
-Pour tagger cette version, nous avons fait un clic-droit sur la ersion en question dans l'history, et nous avons cliqué sur create tag.
-
-8.
-
-et 9.
-Faisables avec GitDesktop.
-
+8. et 9.
+Faisables avec GitDesktop. Nous avons vérifié qu'il était possible de revenir à un stade antérieur du développement de l'application, puis de retourner à la version actuelle. Nous avons taggé cette version V2.0.
 
 \subsection{Exercice 4 - Fusion}
 
@@ -327,7 +320,7 @@ Afin de répondre à cette question, nous avons légèrement modié la classe Do
 
 public class Compte
 {
-	private double solde;
+	private double solde; //solde privé du compte
 	
 	public Compte() //constructeur du compte bancaire
 	{
@@ -350,16 +343,16 @@ public class Compte
 \includegraphics[width=0.8\textwidth]{commit.png}
 \end{figure}
 2.
-Faisable avec GitDekstop. Amélioration de la structure du code précédemment réalisée (lors de l'initialisation du projet). Documentation enrichie.
+Faisable avec GitDekstop. Amélioration de la structure du code précédemment réalisée (lors de l'initialisation du projet). Documentation enrichie. Nous avons bien créé une deuxième branche new_dev qui permet de continuer le développement de l'applicaton en parallèle de la version stable précédemment décrite. De plus, la classe compte intégrait déjà les deux comptes épargne et courant, ce qui permet d'alléger le nombre de fichiers sources.
 
 3.
-Documentation enrichie (commentaires).
+Nous avons enrichi la documentation (commentaires).
 
 4.
-Faisable avec GitDesktop. 
+La fusion de la branche new_dev avec la branche main s'est bien déroulée. Aucun conflit n'a été relevé e les modifications apportées par la branche new_dev ont pu être constatées.
 
 5.
-Tests unitaires OK et GUI OK.
+L'application fonctionne très bien en interface de console, ainsi qu'avec l'interface graphique fournie avec les sources.
 
 \newpage
 \subsection{Exercice 5 - Tests}
@@ -371,7 +364,7 @@ solde préalablement à l'opération.
 Tests Junit mis en place pour tester le bon fonctionnement de l'implémentation.
 \begin{lstlisting}
     @Test  
-	public void test4()
+	public void test4() //vérifie que l'on peut retirer de l'argent
 	{
 		DossierBancaire dossier = new DossierBancaire();
 		dossier.deposer(100);
@@ -407,8 +400,7 @@ Nous avons modifié l'interface GUI.
 
         if( e.getSource() == m_saisie_retrait )
     	{
-    		double retrait_value=Double.parseDouble
-            (m_saisie_retrait.getText());
+    		double retrait_value=Double.parseDouble(m_saisie_retrait.getText());
     		m_dossier.retrait(retrait_value);
     		m_saisie_retrait.setText("");
     	}
